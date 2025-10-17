@@ -16,7 +16,7 @@ interface Props {
     ingredients: string[];
     dietary: DietaryTag[];
     maxTimeMinutes?: number;
-    difficulty?: "easy" | "medium" | "hard" | "any";
+    difficulty: "easy" | "medium" | "hard" | "any";
   }) => void;
 }
 
